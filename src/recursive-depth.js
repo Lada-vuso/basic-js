@@ -9,8 +9,7 @@ module.exports = class DepthCalculator {
         counter +=  this.calculateDepth(item);
         // this.calculateDepth(item);
       }
-    }
-    
+    }    
     return counter;
   }
 };
